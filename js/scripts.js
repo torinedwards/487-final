@@ -4,4 +4,16 @@ $(document).ready(function() {
   $( ".mobile-btn" ).click(function() {
     $( "#container" ).toggle();
   });
+  var student = {name:"Brenda",
+                 age:"20",
+                 likesCoding: true
+           };
+function test() {
+  if (student.likesCoding) {
+    console.log(student.name, student.age)
+  }
+}
+
+
+test();
   });
