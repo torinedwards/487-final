@@ -25,7 +25,7 @@ body {
 /* ~~ Top Navigation Bar ~~ */
 
 #navigation-container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   height: 70px;
 }
@@ -40,6 +40,9 @@ body {
   float: left;
   width: 66px;
   margin-right: -3%;
+  position: fixed;
+  left: 18%;
+  top: 2%;
 }
 .navigation-bar ul {
   padding: 0px;
@@ -77,3 +80,46 @@ body {
   float: right;
 }
 /* Add mobile styles here */
+@media only screen and (max-width: 767px) {
+  .mobile-btn {
+    display: flex;
+    position: fixed;
+    margin: 35px 200px;
+  }
+
+.navigation-bar img {
+  margin: 15px 45px;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+}
+  .navigation-bar ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    position: fixed;
+    left: 0px;
+    align-self: flex-start;
+    background-color: #082745;
+    top: 100px;
+
+  }
+  .navigation-bar li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 47px;
+    display: flex;
+    justify-content: center;
+}
+#container {
+  display: none;
+}
+a:hover {
+  background-color: #1a76d0;
+  color: white;
+}
+}

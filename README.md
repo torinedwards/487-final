@@ -26,7 +26,7 @@
 
 15. Make a fourth commit with the message, ‘Looped through the JSON data’
 
-16. Style the cards so that they look like the "cards-styled.png image". The country should be on the front of the card, and when you hover, the number of requests should appear. Hint: You might have to refactor the way your data is populating the HTML to achieve this.
+16. [optional hover state] Style the cards so that they look like the "cards-styled.png image". The country should be on the front of the card, and when you hover, the number of requests should appear. Hint: You might have to refactor the way your data is populating the HTML to achieve this.
 
 14. Make a fifth commit with the message, ‘Styled the cards’
 
