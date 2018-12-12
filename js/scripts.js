@@ -47,9 +47,9 @@ function buildContent(data) {
     origin.push(data[i].Origin);
 
     value.push(data[i].Value);
-    $( ".cards" ).append( "<div class='card" + i + "'" + "></div>" );
-    $( ".card" + i ).append( "<h1>"+origin[i]+"</h1>" );
-    $( ".card" + i ).append( "<h1>"+value[i]+"</h1>" );
+    $( ".cards" ).append( "<div class='blue card" + i + "'" + "></div>" );
+    $( ".card" + i ).append( "<h3>"+origin[i]+"</h3>" );
+    $( ".card" + i ).append( "<h3>"+value[i]+"</h3>" );
 
   }
   for(i = 0; i < data.length; i++) {
